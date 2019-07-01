@@ -22,7 +22,7 @@ You can use it an a command like `!woth` or `!woth 4` and it can respond with a 
 3. Create a command Respose with a "URL fetch" element. It will return "Plain text" using the "GET" request method.
 - The URL will look like: `https://woth.herokuapp.com/woth.php?spreadsheet=insert_spreadsheet_id_here&token=insert_api_token_here&index=`
 - If you want to support !woth 4 to output a fixed result, append the command "arguments" after &index=argument_here
-
+- For Streamlabs Bots, this will be done using $readapi(URL) as stated in their documentation.
 
 ## Notes
 The app is limited to API limits of Google and usage limits of Heroku. If someone wanted, they could probably exceed the limits. For more information, you can see their respective documentation.
